@@ -17,9 +17,8 @@ public class RecomendaFilmes {
 		List<RecommendedItem> recommendations = recommender.recommend(4, 3);
 
 		for (RecommendedItem rec : recommendations) {
+			System.out.println("Você pode gostar destes filmes =D");
+			System.out.println(rec);
 		}
-		
-		System.out.println("Você pode gostar destes filmes =D");
-		System.out.println(recommendations);
 	}
 }
